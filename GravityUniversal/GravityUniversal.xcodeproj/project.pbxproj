@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6758A66315434F190003F49E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6758A66215434F190003F49E /* UIKit.framework */; };
+		6758A66515434F190003F49E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6758A66415434F190003F49E /* Foundation.framework */; };
+		6758A66715434F190003F49E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6758A66615434F190003F49E /* CoreGraphics.framework */; };
+		6758A66D15434F1A0003F49E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6758A66B15434F1A0003F49E /* InfoPlist.strings */; };
+		6758A66F15434F1A0003F49E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6758A66E15434F1A0003F49E /* main.m */; };
+		6758A67315434F1A0003F49E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6758A67215434F1A0003F49E /* AppDelegate.m */; };
+		6758A67615434F1A0003F49E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6758A67415434F1A0003F49E /* MainStoryboard_iPhone.storyboard */; };
+		6758A67915434F1A0003F49E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6758A67715434F1A0003F49E /* MainStoryboard_iPad.storyboard */; };
+		6758A67C15434F1A0003F49E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6758A67B15434F1A0003F49E /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6758A65E15434F190003F49E /* GravityUniversal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GravityUniversal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6758A66215434F190003F49E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6758A66415434F190003F49E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6758A66615434F190003F49E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6758A66A15434F1A0003F49E /* GravityUniversal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GravityUniversal-Info.plist"; sourceTree = "<group>"; };
+		6758A66C15434F1A0003F49E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6758A66E15434F1A0003F49E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6758A67015434F1A0003F49E /* GravityUniversal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GravityUniversal-Prefix.pch"; sourceTree = "<group>"; };
+		6758A67115434F1A0003F49E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6758A67215434F1A0003F49E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6758A67515434F1A0003F49E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		6758A67815434F1A0003F49E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		6758A67A15434F1A0003F49E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6758A67B15434F1A0003F49E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6758A65B15434F190003F49E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6758A66315434F190003F49E /* UIKit.framework in Frameworks */,
+				6758A66515434F190003F49E /* Foundation.framework in Frameworks */,
+				6758A66715434F190003F49E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6758A65315434F190003F49E = {
+			isa = PBXGroup;
+			children = (
+				6758A66815434F1A0003F49E /* GravityUniversal */,
+				6758A66115434F190003F49E /* Frameworks */,
+				6758A65F15434F190003F49E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6758A65F15434F190003F49E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6758A65E15434F190003F49E /* GravityUniversal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6758A66115434F190003F49E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6758A66215434F190003F49E /* UIKit.framework */,
+				6758A66415434F190003F49E /* Foundation.framework */,
+				6758A66615434F190003F49E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6758A66815434F1A0003F49E /* GravityUniversal */ = {
+			isa = PBXGroup;
+			children = (
+				6758A67115434F1A0003F49E /* AppDelegate.h */,
+				6758A67215434F1A0003F49E /* AppDelegate.m */,
+				6758A67415434F1A0003F49E /* MainStoryboard_iPhone.storyboard */,
+				6758A67715434F1A0003F49E /* MainStoryboard_iPad.storyboard */,
+				6758A67A15434F1A0003F49E /* ViewController.h */,
+				6758A67B15434F1A0003F49E /* ViewController.m */,
+				6758A66915434F1A0003F49E /* Supporting Files */,
+			);
+			path = GravityUniversal;
+			sourceTree = "<group>";
+		};
+		6758A66915434F1A0003F49E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6758A66A15434F1A0003F49E /* GravityUniversal-Info.plist */,
+				6758A66B15434F1A0003F49E /* InfoPlist.strings */,
+				6758A66E15434F1A0003F49E /* main.m */,
+				6758A67015434F1A0003F49E /* GravityUniversal-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6758A65D15434F190003F49E /* GravityUniversal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6758A67F15434F1A0003F49E /* Build configuration list for PBXNativeTarget "GravityUniversal" */;
+			buildPhases = (
+				6758A65A15434F190003F49E /* Sources */,
+				6758A65B15434F190003F49E /* Frameworks */,
+				6758A65C15434F190003F49E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GravityUniversal;
+			productName = GravityUniversal;
+			productReference = 6758A65E15434F190003F49E /* GravityUniversal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6758A65515434F190003F49E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 6758A65815434F190003F49E /* Build configuration list for PBXProject "GravityUniversal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6758A65315434F190003F49E;
+			productRefGroup = 6758A65F15434F190003F49E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6758A65D15434F190003F49E /* GravityUniversal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6758A65C15434F190003F49E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6758A66D15434F1A0003F49E /* InfoPlist.strings in Resources */,
+				6758A67615434F1A0003F49E /* MainStoryboard_iPhone.storyboard in Resources */,
+				6758A67915434F1A0003F49E /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6758A65A15434F190003F49E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6758A66F15434F1A0003F49E /* main.m in Sources */,
+				6758A67315434F1A0003F49E /* AppDelegate.m in Sources */,
+				6758A67C15434F1A0003F49E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6758A66B15434F1A0003F49E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6758A66C15434F1A0003F49E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6758A67415434F1A0003F49E /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6758A67515434F1A0003F49E /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		6758A67715434F1A0003F49E /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6758A67815434F1A0003F49E /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6758A67D15434F1A0003F49E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6758A67E15434F1A0003F49E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6758A68015434F1A0003F49E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GravityUniversal/GravityUniversal-Prefix.pch";
+				INFOPLIST_FILE = "GravityUniversal/GravityUniversal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6758A68115434F1A0003F49E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GravityUniversal/GravityUniversal-Prefix.pch";
+				INFOPLIST_FILE = "GravityUniversal/GravityUniversal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6758A65815434F190003F49E /* Build configuration list for PBXProject "GravityUniversal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6758A67D15434F1A0003F49E /* Debug */,
+				6758A67E15434F1A0003F49E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6758A67F15434F1A0003F49E /* Build configuration list for PBXNativeTarget "GravityUniversal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6758A68015434F1A0003F49E /* Debug */,
+				6758A68115434F1A0003F49E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6758A65515434F190003F49E /* Project object */;
+}
